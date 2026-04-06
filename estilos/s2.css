@@ -169,3 +169,16 @@ footer p {
     transform: translateY(-5px) scale(1.2);
     text-shadow: 0 0 8px rgba(96,165,250,0.6);
 }
+
+@media screen and (max-width: 768px) {
+
+    .site-links {
+        margin: 20px 0;
+    }
+
+    footer {
+        padding: 20px 15px;
+        height: auto;
+    }
+    
+}

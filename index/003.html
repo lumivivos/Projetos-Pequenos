@@ -43,6 +43,28 @@ header:hover {
     transform: translateY(-3px);
 }
 
+.site-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.site-links a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s ease;
+    font-size: 1.6em;
+}
+
+
+
+.site-links a:hover {
+    color: #3b82f6;
+}
+
 main {
     flex: 1;
     display: flex;
@@ -169,6 +191,10 @@ footer p {
 <body>
        <header>
         <h1>Calculadora</h1>
+        <nav class="site-links">
+    <a href="002.html" ><span class="arrow">←</span></a> 
+     <a href="001.html" ><span class="arrow">←←</span></a>
+    </nav>
     </header>
 
     <main>

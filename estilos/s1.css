@@ -56,6 +56,29 @@ header:hover {
     transform: translateY(-2px) scale(1.05);
 }
 
+.site-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.site-links a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s ease;
+    font-size: 1.6em;
+}
+
+
+
+.site-links a:hover {
+    color: #3b82f6;
+}
+
+
 
 main {
     flex: 1;
@@ -73,7 +96,7 @@ section#login {
     border: 1px solid rgba(255,255,255,0.15);
     border-radius: 16px;
     box-shadow: 0 14px 35px rgba(0,0,0,0.35);
-    width: 320px;
+    width: 250px;
     overflow: hidden;
 }
 

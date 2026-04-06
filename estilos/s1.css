@@ -33,6 +33,7 @@ header {
     width: 96%;
     z-index: 1000;
     height: 70px;
+    font-size: 0.8em;
 }
 
 header:hover {

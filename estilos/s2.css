@@ -170,7 +170,14 @@ footer p {
     text-shadow: 0 0 8px rgba(96,165,250,0.6);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    header {
+        display: static;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        z-index: 1;
+    }
 
     .site-links {
         margin: 20px 0;

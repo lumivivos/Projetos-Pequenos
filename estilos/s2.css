@@ -28,7 +28,6 @@ header {
     border-radius: 12px;
     margin: 10px auto;
     cursor: pointer;
-    position: fixed;
     width: 96%;
     z-index: 1000;
     height: 70px;

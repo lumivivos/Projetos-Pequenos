@@ -105,6 +105,11 @@ main > section {
     margin-top: 20px;
 }
 
+#msg {
+    postition: relative;
+    z-index: 10;
+}
+
 p {
     margin: 10px 0;
     padding: 0 5px;

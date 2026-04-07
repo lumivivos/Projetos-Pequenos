@@ -76,3 +76,9 @@
         padding: 20px 15px;
         height: auto;
     }
+
+    @media screen and (max-width: 500px) {
+    header {
+        display: none;
+    }
+}

@@ -1,25 +1,19 @@
 
 
-@media screen and (max-width: 768px) and (min-width: 501px) {
+@media screen and (max-width: 768px) and (min-width: 350px) {
 
     section#login {
         display: flex;
         flex-direction: column;
         width: 90%;
-        max-width: 500px;
+        max-width: 400px;
         height: auto;
         margin: 20px auto;
-        padding: 20px;
+        padding: 5px;
+        gap: 5px;
     }
 
-    header {
-        position: static;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        z-index: 1;
-    }
+
 
     header, .header-link,
     section, .projeto-card {

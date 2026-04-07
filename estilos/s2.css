@@ -137,7 +137,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 125px;
+    width: 100%;
 }
 
 footer p {
@@ -172,7 +172,7 @@ footer p {
 
 @media screen and (max-width: 768px) and (min-width: 501px) {
     header {
-        display: static;
+        position: static;
         justify-content: space-between;
         align-items: center;
         padding: 20px 50px;

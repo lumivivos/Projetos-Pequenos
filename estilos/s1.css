@@ -33,7 +33,7 @@ header {
     width: 96%;
     z-index: 1000;
     height: 70px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 header:hover {
@@ -242,7 +242,7 @@ footer {
 footer p {
     margin: 5px 0 10px 0;
     color: #c0c0c0;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .socials {
